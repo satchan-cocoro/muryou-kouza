@@ -1,0 +1,987 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ママの笑顔が家族を救う｜自分と家族のトリセツ入門（無料動画講座 全4章）</title>
+<meta name="description" content="公認心理師・さっちゃんによる無料動画講座。全4章・約2時間の動画と、章ごとのワークシートを無料でお届けします。無料の個別相談もご用意しています。">
+<meta property="og:title" content="ママの笑顔が家族を救う｜自分と家族のトリセツ入門">
+<meta property="og:description" content="頑張るほど苦しいのは、あなたのせいではありません。全4章の無料動画とワークシートで、自分と家族の「トリセツ」の入口をつくります。">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;500;600;700&family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+<!-- ==========================================================
+     ▼▼▼ URLの設定はここだけ書き換えればOKです ▼▼▼
+     "" のままの項目は、ページ上で「準備中」表示になります。
+     ========================================================== -->
+<script>
+const CONFIG = {
+  // 【最重要】無料個別相談の予約フォーム／カレンダーのURL
+  reserveUrl: "https://calendly.com/andante-no-satchan/free-soudan",
+
+  // YouTube限定公開の「動画ID」（URLの v= のうしろ、または youtu.be/ のうしろ）
+  // 例: https://www.youtube.com/watch?v=AbCdEfG1234 → "AbCdEfG1234"
+  videos: {
+    ch1: "-6QNW3QkYuA",
+    ch2: "aygYSYeLqc0",
+    ch3: "MfPq4Q_CWg4",
+    ch4: "xOKTtvk7RUU"
+  },
+
+  // Googleドライブのワークシート共有リンク（「リンクを知っている全員が閲覧者」に設定）
+  worksheets: {
+    ch1: "https://drive.google.com/file/d/1lWatEZggAgwCj4PM4sR768OL3cL3Q--E/view",
+    ch2: "https://drive.google.com/file/d/1Vgy6fF4Ni9cXW9hw_xDbrp_bqo3dmKvG/view",
+    ch3: "https://drive.google.com/file/d/1IxwuAPIX976g7qNLGktDTEQ3Wt2bnIOW/view",
+    ch4: "https://drive.google.com/file/d/17WJrAhfRpHzZ--1cs_CiL8gmrohas7Nk/view",
+    all: ""   // 4章まとめてのフォルダリンク（なければ空のままでOK）
+  },
+
+  // 任意。空にすると、そのブロックごと非表示になります
+  meishikiUrl: "",   // 命式（日干）を出せるサイトのURL … 第2章の案内に表示
+  lineUrl:     "",   // 公式LINEの友だち追加URL … ページ下部に表示
+  opchatUrl:   ""    // オープンチャット「さっちゃんの人間観察らぼ」のURL
+};
+</script>
+<!-- ▲▲▲ 設定はここまで ▲▲▲ -->
+
+<style>
+  :root {
+    --navy: #1a2744;
+    --navy-light: #2c3e6b;
+    --gold: #c9a96e;
+    --gold-deep: #b08d4d;
+    --gold-pale: #faf5eb;
+    --cream: #fdfaf4;
+    --white: #ffffff;
+    --soft-blue: #e8eef8;
+    --text-dark: #1a2744;
+    --text-mid: #4a5568;
+    --text-soft: #718096;
+    --border: #e2d9c8;
+    --pink-soft: #fdf0f4;
+    --pink: #e8a0b4;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: 'Noto Sans JP', sans-serif;
+    color: var(--text-dark);
+    background: var(--cream);
+    line-height: 1.9;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    padding-bottom: 84px; /* sticky bar分 */
+  }
+
+  .mincho { font-family: 'Shippori Mincho', serif; }
+
+  .wrap { max-width: 760px; margin: 0 auto; padding: 0 22px; }
+  .wrap-wide { max-width: 900px; margin: 0 auto; padding: 0 22px; }
+
+  section { padding: 74px 0; }
+
+  .section-title {
+    font-family: 'Shippori Mincho', serif;
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 1.7;
+    text-align: center;
+    margin-bottom: 14px;
+    letter-spacing: .02em;
+  }
+  .section-lead {
+    text-align: center;
+    color: var(--text-mid);
+    font-size: 15px;
+    margin-bottom: 44px;
+  }
+  .label {
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: .22em;
+    color: var(--gold-deep);
+    margin-bottom: 12px;
+    font-weight: 500;
+  }
+
+  /* =================== HERO =================== */
+  .hero {
+    background: var(--cream);
+    padding: 0 0 52px;
+    text-align: center;
+  }
+  /* アイキャッチ画像。文字が焼き込まれているので、拡大も切り抜きもせず全体を見せる */
+  .hero-visual {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-width: 1663px;
+    margin: 0 auto;
+  }
+  .hero-actions { padding-top: 34px; }
+  .hero-note {
+    font-size: 12.5px;
+    color: var(--text-soft);
+    margin-top: 16px;
+  }
+  /* 画像内の3項目はスマホ幅だと実寸5〜6px相当まで縮んで読めなくなるため、
+     狭い画面のときだけ同じ内容をテキストで補う（PCでは画像側が読めるので非表示） */
+  .hero-items { display: none; }
+  .hero-item .n {
+    font-family: 'Shippori Mincho', serif;
+    font-size: 17px;
+    color: var(--gold-deep);
+    display: block;
+    line-height: 1.5;
+  }
+  .hero-item .t { font-size: 11.5px; color: var(--text-mid); line-height: 1.6; }
+
+  /* =================== CTA BUTTONS =================== */
+  .btn {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 100px;
+    transition: transform .18s ease, box-shadow .18s ease;
+  }
+  .btn-primary {
+    background: linear-gradient(135deg, #c9a96e 0%, #b08d4d 100%);
+    color: #fff;
+    font-size: 17px;
+    padding: 19px 34px;
+    box-shadow: 0 8px 22px rgba(176,141,77,.34);
+    letter-spacing: .02em;
+  }
+  .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 12px 28px rgba(176,141,77,.42); }
+  .btn-outline {
+    background: transparent;
+    color: var(--navy);
+    border: 1.5px solid var(--navy);
+    font-size: 15px;
+    padding: 14px 28px;
+  }
+  .btn-outline:hover { background: var(--navy); color: #fff; }
+  .btn-block { display: block; width: 100%; max-width: 460px; margin: 0 auto; }
+  .btn-sub {
+    display: block;
+    font-size: 12px;
+    font-weight: 400;
+    opacity: .92;
+    margin-top: 3px;
+  }
+  .btn.is-disabled {
+    background: #d8d2c6;
+    color: #fff;
+    box-shadow: none;
+    pointer-events: none;
+  }
+  .cta-caption {
+    text-align: center;
+    font-size: 12.5px;
+    color: var(--text-soft);
+    margin-top: 14px;
+  }
+
+  /* =================== 共感 =================== */
+  .empathy { background: var(--white); }
+  .check-list { max-width: 560px; margin: 0 auto; }
+  .check-item {
+    display: flex;
+    gap: 13px;
+    align-items: flex-start;
+    background: var(--cream);
+    border-radius: 12px;
+    padding: 16px 20px;
+    margin-bottom: 11px;
+    font-size: 15px;
+    line-height: 1.8;
+  }
+  .check-item::before {
+    content: '✓';
+    color: var(--gold-deep);
+    font-weight: 700;
+    flex-shrink: 0;
+    line-height: 1.8;
+  }
+  .empathy-close {
+    text-align: center;
+    margin-top: 38px;
+    font-family: 'Shippori Mincho', serif;
+    font-size: 21px;
+    line-height: 1.9;
+  }
+  .empathy-close span {
+    background: linear-gradient(transparent 68%, rgba(232,160,180,.35) 68%);
+  }
+  .empathy-body {
+    text-align: center;
+    color: var(--text-mid);
+    font-size: 15px;
+    margin-top: 18px;
+  }
+
+  /* =================== 受け取るもの =================== */
+  .gets { background: var(--gold-pale); }
+  .get-cards { display: grid; gap: 16px; grid-template-columns: 1fr 1fr; }
+  .get-card {
+    background: var(--white);
+    border-radius: 16px;
+    padding: 28px 24px;
+    text-align: center;
+    border: 1px solid var(--border);
+  }
+  .get-card .num {
+    font-family: 'Shippori Mincho', serif;
+    font-size: 13px;
+    letter-spacing: .18em;
+    color: var(--gold-deep);
+    display: block;
+    margin-bottom: 10px;
+  }
+  .get-card h3 {
+    font-family: 'Shippori Mincho', serif;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 1.7;
+    margin-bottom: 10px;
+  }
+  .get-card p { font-size: 14px; color: var(--text-mid); line-height: 1.85; }
+
+  /* =================== 章カード =================== */
+  .curriculum { background: var(--white); }
+  .ch-card {
+    border: 1px solid var(--border);
+    border-radius: 18px;
+    overflow: hidden;
+    margin-bottom: 26px;
+    background: var(--cream);
+  }
+  .ch-head { padding: 22px 24px 16px; }
+  .ch-meta {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 8px;
+    flex-wrap: wrap;
+  }
+  .ch-num {
+    background: var(--navy);
+    color: #fff;
+    font-size: 11.5px;
+    letter-spacing: .12em;
+    padding: 4px 12px;
+    border-radius: 100px;
+  }
+  .ch-time { font-size: 12px; color: var(--text-soft); }
+  .ch-head h3 {
+    font-family: 'Shippori Mincho', serif;
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 1.65;
+    margin-bottom: 8px;
+  }
+  .ch-head p { font-size: 14px; color: var(--text-mid); }
+
+  .video-frame {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%;
+    background: #12192b;
+  }
+  .video-frame iframe {
+    position: absolute; inset: 0;
+    width: 100%; height: 100%;
+    border: 0;
+  }
+  .video-pending {
+    position: absolute; inset: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgba(255,255,255,.72);
+    font-size: 13.5px;
+    gap: 8px;
+    letter-spacing: .04em;
+  }
+  .video-pending .ico { font-size: 26px; opacity: .5; }
+
+  .ch-foot {
+    padding: 18px 24px 24px;
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .sheet-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 9px;
+    background: var(--white);
+    border: 1.5px solid var(--gold);
+    color: var(--gold-deep);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 12px 22px;
+    border-radius: 100px;
+    transition: background .18s ease, color .18s ease;
+  }
+  .sheet-btn:hover { background: var(--gold); color: #fff; }
+  .sheet-btn.is-disabled {
+    border-color: #ddd6c8;
+    color: #a9a294;
+    pointer-events: none;
+    background: #f4f1ea;
+  }
+  .ch-hint {
+    font-size: 12.5px;
+    color: var(--text-soft);
+    flex: 1;
+    min-width: 180px;
+  }
+  .meishiki-box {
+    margin: 0 24px 22px;
+    background: var(--soft-blue);
+    border-radius: 12px;
+    padding: 16px 18px;
+    font-size: 13.5px;
+    line-height: 1.85;
+    color: var(--text-mid);
+  }
+  .meishiki-box a { color: var(--navy); font-weight: 700; }
+
+  .sheets-all {
+    text-align: center;
+    background: var(--gold-pale);
+    border-radius: 16px;
+    padding: 30px 24px;
+    margin-top: 8px;
+  }
+  .sheets-all h3 {
+    font-family: 'Shippori Mincho', serif;
+    font-size: 19px;
+    margin-bottom: 8px;
+  }
+  .sheets-all p { font-size: 14px; color: var(--text-mid); margin-bottom: 20px; }
+
+  /* =================== 中間CTA =================== */
+  .cta-mid {
+    background: linear-gradient(160deg, #1a2744 0%, #2c3e6b 100%);
+    color: #fff;
+    text-align: center;
+    padding: 62px 0;
+  }
+  .cta-mid h2 {
+    font-family: 'Shippori Mincho', serif;
+    font-size: 24px;
+    line-height: 1.75;
+    margin-bottom: 14px;
+  }
+  .cta-mid p {
+    font-size: 15px;
+    color: rgba(255,255,255,.86);
+    margin-bottom: 30px;
+  }
+
+  /* =================== 個別相談 =================== */
+  .consult { background: var(--white); }
+  .consult-card {
+    background: var(--cream);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    padding: 36px 28px;
+  }
+  .consult-list { margin: 0 0 26px; }
+  .consult-list li {
+    list-style: none;
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+    padding: 13px 0;
+    border-bottom: 1px dashed var(--border);
+    font-size: 15px;
+  }
+  .consult-list li:last-child { border-bottom: none; }
+  .consult-list .k {
+    font-family: 'Shippori Mincho', serif;
+    font-size: 13px;
+    color: var(--gold-deep);
+    min-width: 74px;
+    flex-shrink: 0;
+    padding-top: 2px;
+    letter-spacing: .08em;
+  }
+  .promise {
+    background: var(--pink-soft);
+    border-radius: 12px;
+    padding: 18px 20px;
+    font-size: 14px;
+    line-height: 1.9;
+    color: var(--text-mid);
+    margin-bottom: 28px;
+  }
+  .promise strong { color: var(--navy); }
+
+  /* =================== プロフィール =================== */
+  .profile { background: var(--soft-blue); }
+  .profile-card {
+    background: var(--white);
+    border-radius: 20px;
+    padding: 34px 28px;
+    text-align: center;
+  }
+  .profile-name {
+    font-family: 'Shippori Mincho', serif;
+    font-size: 23px;
+    margin-bottom: 4px;
+  }
+  .profile-role { font-size: 13px; color: var(--gold-deep); letter-spacing: .1em; margin-bottom: 20px; }
+  .profile-text { font-size: 14.5px; color: var(--text-mid); text-align: left; }
+  .profile-text p { margin-bottom: 14px; }
+  .profile-text p:last-child { margin-bottom: 0; }
+
+  /* =================== FAQ =================== */
+  .faq { background: var(--white); }
+  .faq-item {
+    border-bottom: 1px solid var(--border);
+    padding: 20px 0;
+  }
+  .faq-q {
+    display: flex;
+    gap: 12px;
+    font-weight: 700;
+    font-size: 15.5px;
+    line-height: 1.7;
+    cursor: pointer;
+    align-items: flex-start;
+    list-style: none;
+  }
+  .faq-q::-webkit-details-marker { display: none; }
+  .faq-q::before {
+    content: 'Q';
+    font-family: 'Shippori Mincho', serif;
+    color: var(--gold-deep);
+    flex-shrink: 0;
+  }
+  .faq-q::after {
+    content: '+';
+    margin-left: auto;
+    color: var(--gold-deep);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.4;
+  }
+  details[open] .faq-q::after { content: '−'; }
+  .faq-a {
+    display: flex;
+    gap: 12px;
+    font-size: 14.5px;
+    color: var(--text-mid);
+    margin-top: 12px;
+    padding-left: 2px;
+  }
+  .faq-a::before {
+    content: 'A';
+    font-family: 'Shippori Mincho', serif;
+    color: var(--pink);
+    flex-shrink: 0;
+  }
+
+  /* =================== 最終CTA =================== */
+  .cta-final {
+    background: linear-gradient(160deg, #f5f0e8 0%, #eae6f0 50%, #e8eef8 100%);
+    text-align: center;
+    padding: 74px 0 80px;
+  }
+  .cta-final h2 {
+    font-family: 'Shippori Mincho', serif;
+    font-size: 26px;
+    line-height: 1.8;
+    margin-bottom: 16px;
+  }
+  .cta-final p { font-size: 15px; color: var(--text-mid); margin-bottom: 32px; }
+  .cta-final .btn-outline { margin-top: 14px; }
+
+  /* =================== LINE =================== */
+  .lineblock { background: var(--white); padding: 60px 0; }
+  .line-card {
+    background: #f2faf3;
+    border: 1px solid #cfe8d4;
+    border-radius: 16px;
+    padding: 28px 24px;
+    text-align: center;
+  }
+  .line-card h3 { font-family: 'Shippori Mincho', serif; font-size: 19px; margin-bottom: 10px; }
+  .line-card p { font-size: 14px; color: var(--text-mid); margin-bottom: 20px; }
+  .btn-line {
+    background: #06c755;
+    color: #fff;
+    font-size: 15px;
+    padding: 15px 32px;
+    box-shadow: 0 6px 16px rgba(6,199,85,.28);
+  }
+  .btn-ghost {
+    display: inline-block;
+    margin-top: 14px;
+    font-size: 13px;
+    color: var(--text-soft);
+    text-decoration: underline;
+  }
+
+  /* =================== FOOTER =================== */
+  footer {
+    background: var(--navy);
+    color: rgba(255,255,255,.72);
+    text-align: center;
+    padding: 40px 20px;
+    font-size: 12.5px;
+    line-height: 2;
+  }
+  footer a { color: rgba(255,255,255,.86); }
+
+  /* =================== STICKY BAR =================== */
+  .sticky {
+    position: fixed;
+    left: 0; right: 0; bottom: 0;
+    background: rgba(253,250,244,.96);
+    backdrop-filter: blur(10px);
+    border-top: 1px solid var(--border);
+    padding: 11px 16px calc(11px + env(safe-area-inset-bottom));
+    z-index: 50;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 -4px 20px rgba(26,39,68,.07);
+  }
+  .sticky .btn-primary {
+    font-size: 15px;
+    padding: 14px 24px;
+    flex: 1;
+    max-width: 380px;
+    box-shadow: 0 4px 14px rgba(176,141,77,.3);
+  }
+  .sticky .btn-outline {
+    font-size: 13px;
+    padding: 12px 18px;
+    white-space: nowrap;
+  }
+
+  @media (max-width: 620px) {
+    section { padding: 56px 0; }
+    .hero { padding: 0 0 42px; }
+    .hero-actions { padding-top: 22px; }
+    .hero-items {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 24px;
+      text-align: center;
+    }
+    .hero-item {
+      flex: 1;
+      background: var(--white);
+      border: 1px solid rgba(201,169,110,.45);
+      border-radius: 12px;
+      padding: 12px 6px;
+    }
+    .section-title { font-size: 22px; }
+    .cta-final h2, .cta-mid h2 { font-size: 21px; }
+    .get-cards { grid-template-columns: 1fr; }
+    .btn-primary { font-size: 15.5px; padding: 17px 22px; }
+    .ch-head, .ch-foot { padding-left: 18px; padding-right: 18px; }
+    .meishiki-box { margin-left: 18px; margin-right: 18px; }
+    .consult-card, .profile-card { padding: 26px 20px; }
+    .consult-list li { flex-direction: column; gap: 3px; }
+    .sticky .btn-outline { display: none; }
+    .sticky .btn-primary { max-width: none; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ============ HERO ============ -->
+<header class="hero">
+  <!-- アイキャッチ画像。テキストは画像に焼き込まれているため、
+       同じ内容を alt に入れて読み上げ・検索エンジン・画像非表示時に備えている -->
+  <img class="hero-visual" src="hero.jpg" width="1672" height="941" fetchpriority="high"
+       alt="頑張るほど苦しいのは、あなたのせいではありません。ママの笑顔が家族を救う — 自分と家族の「トリセツ」入門。公認心理師がつくった無料動画講座。全4章・動画約2時間、ワークシート4種、無料個別相談つき。登録不要・今すぐ見られます。">
+
+  <div class="wrap hero-actions">
+    <!-- スマホ幅でのみ表示。画像内の同じ3項目が小さすぎて読めないための補助 -->
+    <div class="hero-items">
+      <div class="hero-item"><span class="n">全4章</span><span class="t">動画 約2時間</span></div>
+      <div class="hero-item"><span class="n">4種</span><span class="t">ワークシート</span></div>
+      <div class="hero-item"><span class="n">無料</span><span class="t">個別相談つき</span></div>
+    </div>
+
+    <a href="#consult" class="btn btn-primary" data-cta>
+      無料の個別相談を予約する
+      <span class="btn-sub">売り込みは一切ありません／オンライン</span>
+    </a>
+    <p class="hero-note">まずは動画から、という方は <a href="#curriculum" style="color:var(--navy);">こちらから第1章へ ↓</a></p>
+  </div>
+</header>
+
+<!-- ============ 共感 ============ -->
+<section class="empathy">
+  <div class="wrap">
+    <span class="label">こんなこと、ありませんか</span>
+    <h2 class="section-title">やり方が悪いのかな、と<br>自分を責めてしまう日</h2>
+    <p class="section-lead">ひとつでも当てはまったら、この講座はあなたのためのものです。</p>
+
+    <div class="check-list">
+      <div class="check-item">育児書の通りにやってみたのに、うちの子には効かなかった</div>
+      <div class="check-item">あの人がうまくいった方法を試したのに、私だとしんどいだけだった</div>
+      <div class="check-item">家族のためにと動くほど、なぜか空回りしている気がする</div>
+      <div class="check-item">夫にどう伝えたら届くのか、もう分からなくなってきた</div>
+      <div class="check-item">気づくと「私さえ我慢すれば」で、一日が終わっている</div>
+    </div>
+
+    <p class="empathy-close mincho">努力が足りないのではなく、<br><span>がんばり方が合っていない</span>だけ。</p>
+    <p class="empathy-body">
+      人にはそれぞれ、生まれ持った資質があります。<br>
+      木にも水をやりすぎれば根が腐るように、合わないがんばり方を続けると、力のある人ほど疲れてしまうんです。<br>
+      この4章では、その「あなたに合うがんばり方」の入口を見ていきます。
+    </p>
+  </div>
+</section>
+
+<!-- ============ 受け取るもの ============ -->
+<section class="gets">
+  <div class="wrap">
+    <span class="label">この講座で受け取るもの</span>
+    <h2 class="section-title">持って帰ってほしいのは、2つだけ</h2>
+    <p class="section-lead">たくさん覚えなくて大丈夫です。この2つが残れば充分です。</p>
+
+    <div class="get-cards">
+      <div class="get-card">
+        <span class="num">０１</span>
+        <h3 class="mincho">自分の資質が<br>1つ、分かる</h3>
+        <p>生年月日から出る「日干」で、あなたのがんばり方のクセと、疲れ方のサインが見えてきます。</p>
+      </div>
+      <div class="get-card">
+        <span class="num">０２</span>
+        <h3 class="mincho">今日からの一歩が<br>1つ、決まる</h3>
+        <p>クセは直すものではなく、扱うもの。あなたの資質に合った、小さな一歩をひとつ持ち帰ります。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ カリキュラム ============ -->
+<section class="curriculum" id="curriculum">
+  <div class="wrap">
+    <span class="label">CURRICULUM</span>
+    <h2 class="section-title">全4章の動画と、<br>章ごとのワークシート</h2>
+    <p class="section-lead">
+      登録もパスワードも要りません。ご自分のペースで、少しずつどうぞ。<br>
+      ワークシートは書き込みながら見ると、残り方がまるで変わります。
+    </p>
+
+    <!-- 第1章 -->
+    <article class="ch-card">
+      <div class="ch-head">
+        <div class="ch-meta"><span class="ch-num">第 1 章</span><span class="ch-time">約25〜30分</span></div>
+        <h3 class="mincho">頑張るほど苦しい理由</h3>
+        <p>子育ても、夫婦も、自信のなさも、実は根っこでつながっています。「愛情不足でもやり方の間違いでもない」というところから始めます。</p>
+      </div>
+      <div class="video-frame" data-video="ch1"></div>
+      <div class="ch-foot">
+        <a class="sheet-btn" data-sheet="ch1" target="_blank" rel="noopener">📄 第1章のワークシート</a>
+        <span class="ch-hint">「頑張りすぎサインチェック」がついています。</span>
+      </div>
+    </article>
+
+    <!-- 第2章 -->
+    <article class="ch-card">
+      <div class="ch-head">
+        <div class="ch-meta"><span class="ch-num">第 2 章</span><span class="ch-time">約30〜35分</span></div>
+        <h3 class="mincho">あなたの心のクセと力</h3>
+        <p>10種類の「日干」から、あなたの才能の原型を見ていきます。大樹、草花、太陽、灯火、山、大地、鋼、宝石、海、雨 — あなたはどれでしょう。</p>
+      </div>
+      <div class="video-frame" data-video="ch2"></div>
+      <div class="meishiki-box" data-block="meishiki">
+        📅 この章では、ご自身の生年月日を使います。<br>
+        日干は <a data-link="meishiki" target="_blank" rel="noopener">こちらのページ</a> から、その場で出せます。お手元に生年月日をご準備のうえご覧くださいね。
+      </div>
+      <div class="ch-foot">
+        <a class="sheet-btn" data-sheet="ch2" target="_blank" rel="noopener">📄 第2章のワークシート</a>
+        <span class="ch-hint">自分の日干タイプを記録するページです。</span>
+      </div>
+    </article>
+
+    <!-- 第3章 -->
+    <article class="ch-card">
+      <div class="ch-head">
+        <div class="ch-meta"><span class="ch-num">第 3 章</span><span class="ch-time">約20〜25分</span></div>
+        <h3 class="mincho">分かっているのに<br>変えられない理由</h3>
+        <p>資質からいったん離れて、誰にでも当てはまる話を。あるママの朝の場面から、「なぜ同じことが繰り返されるのか」をほどいていきます。</p>
+      </div>
+      <div class="video-frame" data-video="ch3"></div>
+      <div class="ch-foot">
+        <a class="sheet-btn" data-sheet="ch3" target="_blank" rel="noopener">📄 第3章のワークシート</a>
+        <span class="ch-hint">「前」と「後」を書き出すワークです。</span>
+      </div>
+    </article>
+
+    <!-- 第4章 -->
+    <article class="ch-card">
+      <div class="ch-head">
+        <div class="ch-meta"><span class="ch-num">第 4 章</span><span class="ch-time">約15〜20分</span></div>
+        <h3 class="mincho">家族は、いちばん近い他人</h3>
+        <p>いちばん近いからこそ、分かり合えて当然だと思ってしまう。最終章では、これからどんな関係を築いていきたいかを、あなたの言葉にします。</p>
+      </div>
+      <div class="video-frame" data-video="ch4"></div>
+      <div class="ch-foot">
+        <a class="sheet-btn" data-sheet="ch4" target="_blank" rel="noopener">📄 第4章のワークシート</a>
+        <span class="ch-hint">書いたものは、あなたのトリセツの1ページ目になります。</span>
+      </div>
+    </article>
+
+    <div class="sheets-all" data-block="sheets-all">
+      <h3 class="mincho">ワークシートを、まとめて受け取る</h3>
+      <p>全4章分をひとまとめにしています。印刷して、手書きで進めるのもおすすめです。</p>
+      <a class="btn btn-primary btn-block" data-link="sheets-all" target="_blank" rel="noopener">
+        ワークシート4種をまとめてダウンロード
+        <span class="btn-sub">無料・メールアドレスの入力は不要です</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 中間CTA ============ -->
+<section class="cta-mid">
+  <div class="wrap">
+    <h2 class="mincho">ここまでで見たのは、<br>トリセツの「1ページ目」です</h2>
+    <p>
+      命式は8文字。この講座で見たのは、そのうちの1文字です。<br>
+      残りの7文字と、心のクセを重ねると、あなた専用のトリセツになります。<br>
+      「自分の場合はどうなんだろう」と思ったら、そこから先は一緒に見ていきましょう。
+    </p>
+    <a href="#consult" class="btn btn-primary" data-cta>
+      無料の個別相談を予約する
+      <span class="btn-sub">オンライン／顔出しなしでも大丈夫です</span>
+    </a>
+  </div>
+</section>
+
+<!-- ============ 個別相談 ============ -->
+<section class="consult" id="consult">
+  <div class="wrap">
+    <span class="label">FREE SESSION</span>
+    <h2 class="section-title">無料の個別相談を<br>ご用意しています</h2>
+    <p class="section-lead">動画を見て終わりにしないための、いちばん確実な一歩です。</p>
+
+    <div class="consult-card">
+      <ul class="consult-list">
+        <li><span class="k">こんな方に</span><span>動画の内容を「自分の場合」で聞いてみたい／家族との関わりを具体的に相談したい方</span></li>
+        <li><span class="k">やること</span><span>あなたの命式を一緒に見ながら、今いちばん引っかかっていることを整理します</span></li>
+        <li><span class="k">形　式</span><span>オンライン（Zoom）／顔出しなし・音声のみの参加も歓迎です</span></li>
+        <li><span class="k">時　間</span><span>60分程度</span></li>
+        <li><span class="k">参加費</span><span>無料</span></li>
+        <li><span class="k">枠　数</span><span>一人ひとりとしっかり向き合いたいので、月に数名までとしています</span></li>
+      </ul>
+
+      <div class="promise">
+        <strong>ひとつだけ、お約束します。</strong><br>
+        この相談は、何かを売り込む場ではありません。もし継続的に整えたい方には、そういうご用意もありますとお伝えするだけです。無理なおすすめは一切しませんので、安心してお申し込みくださいね。
+      </div>
+
+      <a class="btn btn-primary btn-block" data-link="reserve" target="_blank" rel="noopener">
+        空いている日程を見て予約する
+        <span class="btn-sub">1分で完了します</span>
+      </a>
+      <p class="cta-caption">お子さんの声が入っても、途中で抜けても大丈夫です。</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ プロフィール ============ -->
+<section class="profile">
+  <div class="wrap">
+    <span class="label">お話しする人</span>
+    <div class="profile-card">
+      <p class="profile-name mincho">さっちゃん</p>
+      <p class="profile-role">公認心理師／3児の母</p>
+      <div class="profile-text">
+        <p>心理学と四柱推命を組み合わせて、これまで350回以上の個別セッションをしてきました。</p>
+        <p>と言いつつ、私自身が「ちゃんとしたお母さん」からはずいぶん遠くて。子どもに強く言ってしまって、夜に一人で落ち込む夜を、何度も過ごしてきました。</p>
+        <p>変わったのは、自分を直そうとするのをやめて、自分の資質に合ったやり方に変えてからです。がんばる量ではなく、がんばり方のほうを変えたら、家の中の空気が先に変わりました。</p>
+        <p>この講座は、そのときに私が知りたかったことを、そのまま4章にしたものです。無理しすぎず、いきましょう。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section class="faq">
+  <div class="wrap">
+    <span class="label">Q &amp; A</span>
+    <h2 class="section-title">よくあるご質問</h2>
+    <div class="section-lead"></div>
+
+    <details class="faq-item"><summary class="faq-q">本当に無料ですか？あとから費用がかかりませんか？</summary>
+      <div class="faq-a">動画・ワークシート・個別相談は、すべて無料です。相談のなかで有料の講座について触れることはありますが、その場でお申し込みをお願いすることはありません。</div>
+    </details>
+
+    <details class="faq-item"><summary class="faq-q">占いや四柱推命は、まったく知らないのですが大丈夫ですか？</summary>
+      <div class="faq-a">大丈夫です。専門用語はほとんど使いません。むしろ「学んだことはないけれど気になっていた」という方に向けて作っています。</div>
+    </details>
+
+    <details class="faq-item"><summary class="faq-q">動画は、途中まででも大丈夫ですか？</summary>
+      <div class="faq-a">もちろんです。決まった時間に見る必要もありません。第1章だけでも、受け取れるものがあるように作っています。</div>
+    </details>
+
+    <details class="faq-item"><summary class="faq-q">個別相談で、何を話せばいいのか分かりません。</summary>
+      <div class="faq-a">整理してから来なくて大丈夫です。「なんとなくしんどい」から始めてくださって構いません。こちらから質問しながら、一緒にほどいていきます。</div>
+    </details>
+
+    <details class="faq-item"><summary class="faq-q">子どもがそばにいる状態でも参加できますか？</summary>
+      <div class="faq-a">歓迎です。私も3人育てているので、その状況はよく分かります。抱っこしながらでも、途中で離席されても、まったく問題ありません。</div>
+    </details>
+
+    <details class="faq-item"><summary class="faq-q">夫や子どもの資質も見てもらえますか？</summary>
+      <div class="faq-a">はい。ただ、家族の命式は「当てる」より「翻訳する」ために使うのがコツです。そのあたりは個別相談で具体的にお話ししますね。</div>
+    </details>
+  </div>
+</section>
+
+<!-- ============ LINE（任意） ============ -->
+<section class="lineblock" data-block="line">
+  <div class="wrap">
+    <div class="line-card">
+      <h3 class="mincho">続きは、公式LINEで</h3>
+      <p>新しい講座やコンテンツのご案内、日々のちいさな気づきをお届けしています。ワークに書いたものを送っていただければ、私から一言お返事します。</p>
+      <a class="btn btn-line" data-link="line" target="_blank" rel="noopener">公式LINEを友だち追加する</a>
+      <br>
+      <a class="btn-ghost" data-link="opchat" target="_blank" rel="noopener" data-block="opchat">オープンチャット「さっちゃんの人間観察らぼ」もこちらから</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 最終CTA ============ -->
+<section class="cta-final">
+  <div class="wrap">
+    <h2 class="mincho">がんばり方を変えるだけで、<br>ちゃんとラクになります</h2>
+    <p>
+      ママが自分に戻ると、家族の空気も変わっていきます。<br>
+      その順番は、逆ではないんです。<br>
+      今日の一歩を、ひとつだけ決めていきませんか。
+    </p>
+    <a class="btn btn-primary btn-block" data-link="reserve" target="_blank" rel="noopener">
+      無料の個別相談を予約する
+      <span class="btn-sub">売り込みは一切ありません／オンライン60分</span>
+    </a>
+    <a href="#curriculum" class="btn btn-outline">まずは動画を見てみる</a>
+  </div>
+</section>
+
+<footer>
+  <p>あんだんて／さっちゃん</p>
+  <p>
+    <a href="https://satchan-cocoro.github.io/gw-present/legal.html#privacy" target="_blank" rel="noopener">プライバシーポリシー</a>
+  </p>
+  <p style="opacity:.6; font-size:11.5px;">
+    このページでご案内しているものは、すべて無料です。<br>
+    お申し込みにあたって、費用は一切かかりません。
+  </p>
+  <!-- 特定商取引法に基づく表記は、有料商品を販売するページにのみ必要です。
+       このLPは無料コンテンツのみで決済が発生しないため、意図的にリンクしていません。
+       （リンク先の legal.html は 5,500円のトリセツ鑑定書PDF 用の表記です） -->
+</footer>
+
+<!-- ============ 追尾CTA ============ -->
+<div class="sticky">
+  <a href="#curriculum" class="btn btn-outline">動画を見る</a>
+  <a class="btn btn-primary" data-link="reserve" target="_blank" rel="noopener">無料の個別相談を予約する</a>
+</div>
+
+<script>
+(function () {
+  const set = (v) => typeof v === 'string' && v.trim() !== '';
+
+  // --- 動画の埋め込み ---
+  document.querySelectorAll('[data-video]').forEach(function (frame) {
+    const id = CONFIG.videos[frame.dataset.video];
+    if (set(id)) {
+      const f = document.createElement('iframe');
+      f.src = 'https://www.youtube-nocookie.com/embed/' + id.trim() + '?rel=0';
+      f.title = '無料動画講座';
+      f.loading = 'lazy';
+      f.allow = 'accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
+      f.allowFullscreen = true;
+      frame.appendChild(f);
+    } else {
+      frame.innerHTML = '<div class="video-pending"><span class="ico">▶</span>動画は準備中です</div>';
+    }
+  });
+
+  // --- ワークシートのボタン ---
+  document.querySelectorAll('[data-sheet]').forEach(function (a) {
+    const url = CONFIG.worksheets[a.dataset.sheet];
+    if (set(url)) { a.href = url.trim(); }
+    else { a.classList.add('is-disabled'); a.textContent = '📄 ワークシートは準備中です'; }
+  });
+
+  // --- 各種リンク ---
+  const links = {
+    reserve:      CONFIG.reserveUrl,
+    'sheets-all': CONFIG.worksheets.all,
+    meishiki:     CONFIG.meishikiUrl,
+    line:         CONFIG.lineUrl,
+    opchat:       CONFIG.opchatUrl
+  };
+  document.querySelectorAll('[data-link]').forEach(function (a) {
+    const url = links[a.dataset.link];
+    if (set(url)) { a.href = url.trim(); }
+    else { a.classList.add('is-disabled'); a.removeAttribute('href'); }
+  });
+
+  // --- URL未設定のブロックは、まるごと隠す ---
+  const optional = {
+    meishiki:     CONFIG.meishikiUrl,
+    'sheets-all': CONFIG.worksheets.all,
+    line:         CONFIG.lineUrl,
+    opchat:       CONFIG.opchatUrl
+  };
+  Object.keys(optional).forEach(function (key) {
+    if (!set(optional[key])) {
+      document.querySelectorAll('[data-block="' + key + '"]').forEach(function (el) {
+        el.style.display = 'none';
+      });
+    }
+  });
+
+  // --- 予約URLが未設定のうちは、CTAを相談セクションへ向ける ---
+  if (!set(CONFIG.reserveUrl)) {
+    document.querySelectorAll('[data-link="reserve"]').forEach(function (a) {
+      a.classList.remove('is-disabled');
+      a.href = '#consult';
+      a.removeAttribute('target');
+    });
+  }
+
+  // --- 追尾バーは、ヒーローを過ぎてから出す ---
+  const sticky = document.querySelector('.sticky');
+  const hero = document.querySelector('.hero');
+  sticky.style.transition = 'transform .3s ease, opacity .3s ease';
+  const toggle = function () {
+    const passed = window.scrollY > hero.offsetHeight * 0.7;
+    sticky.style.transform = passed ? 'translateY(0)' : 'translateY(120%)';
+    sticky.style.opacity = passed ? '1' : '0';
+  };
+  toggle();
+  window.addEventListener('scroll', toggle, { passive: true });
+})();
+</script>
+</body>
+</html>
